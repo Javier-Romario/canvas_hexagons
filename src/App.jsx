@@ -8,7 +8,6 @@ function getWindowDimensions() {
   };
 }
 function App() {
-  const [count, setCount] = useState(0)
   const ref = useRef(null)
   const [windowDimensions, setWindowDimensions] = useState(getWindowDimensions());
   useEffect(() => {
