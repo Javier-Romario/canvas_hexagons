@@ -44,7 +44,7 @@ function App() {
     ctx.closePath();
     ctx.fill();
 
-  }, [ref, windowDimensions])
+  }, [windowDimensions])
 
   return (
     <main className="main">
