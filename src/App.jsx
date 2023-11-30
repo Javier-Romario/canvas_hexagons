@@ -26,20 +26,6 @@ function App() {
     ctx.height = windowDimensions.height
     ctx.width = windowDimensions.width
 
-
-    // ctx.save();
-    // const rectHeight = 100
-    // const rectWidth = 100
-    // ctx.rect(
-    //   (canvas.width / 2 - (rectWidth / 2)),
-    //   (canvas.height / 2 - (rectHeight / 2)),
-    //   rectWidth,
-    //   rectHeight
-    // );
-    // ctx.opacity = 0.8;
-    // ctx.fillStyle = 'salmon'
-    // ctx.fill();
-    // ctx.restore()
     const x = (canvas.width / 2)
     const y = (canvas.height / 2)
 
@@ -62,7 +48,6 @@ function App() {
 
   return (
     <main className="main">
-      <h1>hexagons</h1>
       <canvas className="canvas" ref={ref} height={windowDimensions.height} width={windowDimensions.width} />
     </main>
   )
