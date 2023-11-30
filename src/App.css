@@ -1,0 +1,24 @@
+/* #root { */
+/*   margin: 0 auto; */
+/*   text-align: center; */
+/* } */
+#root {
+  width: 100%;
+}
+
+html, body {
+  height: 100vh;
+  width: 100vw;
+  max-width: 100%;
+  background: #1E1E1E;
+  color: #f0f0f0;
+  font-family: 'Berkeley Mono', sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+.canvas {
+  /* height: 100vh; */
+  /* width: 100%; */
+  outline: 1px solid salmon;
+}
